@@ -1,0 +1,23 @@
+body {
+	background-color: #F8E71C;
+	text-align: center;
+}
+
+#logo {
+	width: 150px;
+	margin-bottom: 10px;
+}
+
+#content {
+	text-align: left;
+	max-width: 500px;
+	margin-top: 80px;
+	width: 95%;
+}
+
+.innercontent {
+	background-color: white;
+	width: auto;
+	padding: 25px;
+	border-radius: 5px;
+}

@@ -1,0 +1,80 @@
+
+
+@media only screen and (max-device-width: 1024px) {
+
+	html, body {
+	  width: auto;
+	  overflow-x: hidden;
+	}
+	.innercontent {
+	  width: 95%;
+	  margin: 0 auto;
+	}
+
+	#header-right {
+		display: none;
+	}
+
+	#splash #maintitle {
+		font-size: 32px;
+	}
+
+	#splash #sign-up-top {
+		padding: 50px 0 50px 0;
+		font-size: 20px;
+	}
+
+	.email-input-holder {
+		width: 90%;
+		margin: 0;
+		padding: 0;
+		text-align: center;
+		margin: 0 auto;
+		border-bottom-left-radius: 0;
+		border-bottom-right-radius: 0;
+	}
+
+	#sign-up-bottom .email-input-holder {
+		border: 1px solid lightgrey;
+	}
+
+	#let-me-know #sign-up-bottom input[type=submit] {
+		border-top: 0;
+	}
+
+	.sign-up-form input[type=email] {
+		width: 80%;
+	}
+
+	.sign-up-form input[type=submit] {
+		width: 90%;
+		border-top-left-radius: 0;
+		border-top-right-radius: 0;
+	}
+
+	.sign-up-guide {
+		text-align: center;
+		height: 100px;
+	}
+
+	.box {
+		width: 100%;
+		margin: 0 auto;
+		margin-top: 25px;
+	}
+
+	.box img {
+		width: auto;
+	}
+
+	#anyone-can-be-a-guide .box2 {
+		width: 100%;
+	}
+
+ #let-me-know #sign-up-bottom {
+		padding: 50px 0 0 0;
+		font-size: 20px;
+	}
+
+
+}
