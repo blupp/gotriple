@@ -67,6 +67,10 @@
 		width: auto;
 	}
 
+	#example-tours img {
+		width: 310%;
+	}
+
 	#anyone-can-be-a-guide .box2 {
 		width: 100%;
 	}

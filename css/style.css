@@ -49,12 +49,18 @@ button:hover {
   margin: 0 auto;
 }
 
+
 #splash {
-  background-color: grey;
-  #height: 750px;
-  background-image: url("../img/hero.png");
-  background-size: cover;
+  background-color: black;
 	color: white;
+	background-image: url('../img/triplestart.jpg');
+	background-repeat: no-repeat;
+	background-position: 50% 0;
+	-ms-background-size: cover;
+	-o-background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	background-size: cover;
 }
 
 	#splash #header {
@@ -142,7 +148,13 @@ button:hover {
 	margin-left: 4px;
 	}
 
+#example-tours {
+	margin-bottom: 20px;
+}
 
+#example-tours img {
+	width: 100%;
+}
 
 #how-it-works {
   background-color: #F8E71C;
@@ -179,10 +191,11 @@ button:hover {
 	font-size: 16px;
 	line-height: 28px;
 }
-	#anyone-can-be-a-guide .headline {
+	#anyone-can-be-a-guide .headline, #example-tours .headline {
 		color: #333;
 		margin-top: 20px;
 		font-weight: 200;
+		margin-bottom: 20px;
 	}
 
 	#anyone-can-be-a-guide .box2 {
