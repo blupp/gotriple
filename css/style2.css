@@ -20,7 +20,7 @@
 	}
 
 	#splash #sign-up-top {
-		padding: 50px 0 0 0;
+		padding: 50px 0 50px 0;
 		font-size: 20px;
 	}
 
@@ -50,6 +50,11 @@
 		width: 90%;
 		border-top-left-radius: 0;
 		border-top-right-radius: 0;
+	}
+
+	a.button {
+		font-size: 16px;
+		padding: 20px;
 	}
 
 	.sign-up-guide {
